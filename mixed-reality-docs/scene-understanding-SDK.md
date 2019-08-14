@@ -356,4 +356,5 @@ At this point you should understand the core building blocks of the Scene Unders
 
 ## See also
 
+* [scene understanding](scene-understanding.md)
 * [spatial mapping](spatial-mapping.md)

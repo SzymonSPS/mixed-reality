@@ -298,6 +298,7 @@
 ### [Locatable camera](locatable-camera.md)
 ### [Mixed reality capture for developers](mixed-reality-capture-for-developers.md)
 ### [HoloLens Research mode](research-mode.md)
+### [Scene understanding SDK](scene-understanding-SDK.md)
 
 # Distribute
 ## [Implement 3D app launchers (UWP apps)](implementing-3d-app-launchers.md)

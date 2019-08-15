@@ -7,15 +7,18 @@ ms.author: szymons
 ms.date: 07/08/19
 ms.topic: article
 keywords: Scene Understanding, Spatial Mapping, Windows Mixed Reality, Unity
+
 ---
 
 # Scene Understanding
 
-Scene Understanding provides Mixed Reality developers with a structured, high-level environment representation designed to make developing for environmentally aware applications intuitive. Scene Understanding does this by combining the power of existing mixed reality runtimes such as the highly accurate less structured [spatial mapping](spatial-mapping.md) and new AI driven runtimes. By combining these technologies, Scene Understanding generates representations of 3d environments that are similar to those you may have used in frameworks such as Unity or ARKit/ARCore. The Scene Understanding entrypoint begins with a Scene Observer which is called by your application to compute a new Scene. Today the technology is capable of generating 3 distinct but related object categories: simplified watertight environment meshes that infer the planar room structure without clutter, plane regions for placement that we call Quads, and a snapshot of the [spatial mapping](spatial-mapping.md) mesh that aligns with the Quads/Watertight data that we surface.
+Interacting with real environments in Mixed Reality devices is a complicated process that burdens developers with reasoning on un-structured geometric rata. Scene Understanding represents Microsoft's effort to shift in environment understanding to a structured, high-level environment representation designed to make developing for environmentally aware applications intuitive. We have succeeded when your application logic reasons with real and virtual environments in exactly the same way.
+
+Scene Understanding accomplishes this by interpreting an area of your environment as a Scene. Today, Scenes are rather simple, they generate a collection of SceneObjects which contain various components. Today these components can be  simplified planar meshes that  form a complete watertight representation of your space, 2D planar regions called Quads used for placement, and a mesh  snapshot of the [spatial mapping](spatial-mapping.md) mesh. As our devices/runtimes mature we expect scenes to become much more expressive, aligning closer and closer to typical object/scene representations.
 
 ![Spatial mapping mesh, labeled planar surfaces, watertight mesh](images/SUScenarios.png)
 
-This document is intended to provide a scenario overview and to clarify the relationship that Scene Understanding and Spatial Mapping share. For details on how Scene Understanding works and how to develop for it, please see the Scene Understanding [SDK overview](scene-understanding-SDK.md) documentation.
+This document provides an introduction to how Scene Understanding works, how your application can interact with the runtime, and provides scenario overviews. For specific details on how to download the SDK and how to develop for it, please see the Scene Understanding [SDK overview](scene-understanding-SDK.md) documentation.
 
 ## Device support
 
